@@ -30,6 +30,35 @@
         Checkbox: <input type="checkbox" id="chkCheckBox"><span id="checkboxState"></span>
     </div>
 
+    <div>
+        <h3>Radio Buttons - My Favourite Tech</h3>
+        <input type="radio" name="tech" id="html" value="HTML"> HTML<br>
+        <input type="radio" name="tech" id="css" value="CSS"> CSS<br>
+        <input type="radio" name="tech" id="javascript" value="JavaScript"> JS<br>
+        <input type="radio" name="tech" id="cplusplus" value="C++"> C++<br>
+        <input type="radio" name="tech" id="chashtag" value="C#"> C#<br>
+        <input type="radio" name="tech" id="sql" value="sql"> SQL<br>
+        <input type="radio" name="tech" id="java" value="java"> Java<br>
+        <p id="radio-target">Select a tech above</p>
+    </div>
+
+    <div>
+        <h4>Select</h4>
+        <select name="" id="vehicleMakes">
+            <option>--Make selection--</option>
+            <option value="10">Jeep</option>
+            <option value="11">Toyota</option>
+            <option value="12">Land Rover</option>
+            <option value="12">Chervolet</option>
+            <option value="12">VinFast</option>
+        </select>
+        <p id="selection"></p>
+    </div>
+
+    <div>
+        <button onclick="clickMe()">Click me</button>
+    </div>
+
     <script>
         const myDivTag = document.getElementById('myDiv');
 
